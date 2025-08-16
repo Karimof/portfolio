@@ -89,7 +89,7 @@ section {
     margin: auto;
 }
 
-.portfolio{
+.portfolio {
     min-height: 200%;
 }
 
@@ -260,7 +260,7 @@ footer {
 .about-image img {
     width: 80%;
     border-radius: 50%;
-    box-shadow: 0 0 20px rgba(255, 0, 150, 0.4);
+    box-shadow: 0 0 20px #38bdf8;
     transition: transform 0.4s ease;
 }
 
@@ -282,7 +282,7 @@ footer {
 }
 
 .about-content h2 span {
-    color: #ff4ecd;
+    color: #38bdf8;
 }
 
 .about-content p {
@@ -293,17 +293,18 @@ footer {
 }
 
 .about-content .btn {
-    display: inline-block;
+    display: flex;
+    width: 25%;
     padding: 10px 25px;
-    background: linear-gradient(45deg, #ff4ecd, #6e00ff);
+    background: linear-gradient(45deg, #2977f5, #38bdf8);
     color: #fff;
     text-decoration: none;
     border-radius: 8px;
-    transition: background 0.3s ease;
+    transition:  0.3s;
 }
 
 .about-content .btn:hover {
-    background: linear-gradient(45deg, #6e00ff, #ff4ecd);
+    box-shadow: 0px 0px 15px #2977f5;
 }
 
 /* Fade-in animatsiya */
@@ -318,14 +319,14 @@ footer {
 
 
 /*Others*/
-.fl{
+.fl {
     display: flex;
     justify-content: space-between;
     align-content: space-between;
     gap: 1.5rem;
 }
 
-.fl > div{
+.fl>div {
     border: 1px solid white;
     border-radius: 20px;
     padding: 2rem;
@@ -333,9 +334,9 @@ footer {
     transition: all 0.3s ease;
 }
 
-.fl  > *:hover {
+.fl>*:hover {
     color: #38bdf8 !important;
-    text-shadow: 0px 0px 5px #ff4ecd;
+    text-shadow: 0px 0px 5px #38bdf8;
     border-color: #38bdf8;
 }
 
@@ -344,7 +345,7 @@ a {
     color: white;
 }
 
-.photo{
+.photo {
     border-radius: 500px;
 }
 
@@ -377,8 +378,8 @@ a {
     filter: invert(1);
     transition: transform 0.3s ease;
 }
+
 .icon:hover {
     border-color: white;
     transform: scale(1.1);
 }
-
